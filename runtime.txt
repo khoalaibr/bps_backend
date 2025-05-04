@@ -1,0 +1,5 @@
+# backend/runtime.txt
+# Especifica la versión de Python que usará Heroku
+# Reemplaza con la versión específica que estás usando (ej. 3.10.4, 3.11.2)
+# Puedes ver tu versión con: python --version
+python-3.13.0
