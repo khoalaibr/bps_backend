@@ -2530,7 +2530,7 @@ Analiza el texto del Oficio y genera **únicamente un objeto JSON** válido con 
         * El número de Oficio (ej. "Oficio N° 250/2025").
         * El nombre completo del Juzgado u Oficina emisora.
         * Los detalles del caso ("Autos: '...'"), incluyendo el nombre/carátula y el número de expediente (IUE) si está presente.
-    * Formato Ejemplo: "Oficio N° 250/2025 – Juzgado Letrado de Primera Instancia de Rivera de 4° Turno - Autos: \"GONZALEZ FAGUNDEZ HYNNLER FABIAN C/ TECHERA RICARDO SANDRA BEATRIZ. REDUCCION DE PENSION ALIMENTICIA\", IUE 330-364/2024 – Solicitud de Historia Clínica Laboral"
+    * Formato Ejemplo: "Oficio N° 250/2025 – Juzgado Letrado de Primera Instancia de Rivera de 4° Turno - Autos: \"GONZALEZ FAGUNDEZ HYNNLER FABIAN C/ TECHERA RICARDO SANDRA BEATRIZ. REDUCCION DE PENSION ALIMENTICIA\", IUE 330-364/2024."
 * `acciones_detalladas` (List of Objects):
     * Identifica cada solicitud o mandato específico dirigido al destinatario del oficio.
     * Para cada acción distinta:

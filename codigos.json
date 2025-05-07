@@ -1,23 +1,3 @@
-El prompt está funcionando perfecto. Pero ahora necesito hacerle algunas modificaciones. 
-Primero que nada, ahora, cuando busco el codigo del Juzgado, lo hará de una estructura mas completa y con mas datos.
-Te voy a pasar al final los nuevos datos.
-Ademas de haber completado con mas Juzgados, también agregué información de los Juzgados que antes no manejaba: Email y Departamento.
-Además, quiero que el resultado agregue nuevos datos.
-1) Al final del Oficio se encuentra un código: CVE. Quiero que lo incluya.
-2) Quiero que las acciones vengan mas completa. Ejemplo, cuando menciona que se pide una tenencia, quiero que coloque de quien a quien será la tenencia, con documentación de cada uno.
-Lo mismo si me dice que quiere una historia laboral: Necesito saber de quien será. En fin, es necesario que quede mas explicita la información que se necesita.
-3) Los campos nuevos: Email y Deparatamento, deberán venir en el resultado.
-4) Hay un dato importante que no se está teniendo en cuenta. Es muy importante saber si el oficio releva o no el secreto tributario.
-Para eso hay una serie de casuisticas que lo indican. Me gustaria que lo trabajaramos con una estructura de array o json (en el prompt) para ir colocando las casuiticas.
-Por ej.: [
-    "que diga explicitamente que 'releva el secreto tributario a favor de un menor'",
-    "que diga explicitamente que 'releva el secreto tributario a favor de un incapaz'", 
-    "que releva el secreto tributario, por parte del representante de una empresa, apareciendo el numero de empresa en el oficio"                    
-]
-En fin, la idea es que yo pueda continuar agregando casuisticas a esa lista y que el prompt las tenga en cuenta.
-Tambien me gustaria que me mostrase la linea donde se encuentra la casuistica en el oficio.
-...
-Te voy a pasar el JSON que te mencioné al principio.
 [
     {
       "Departamento": "Artigas ",
