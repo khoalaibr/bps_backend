@@ -2466,11 +2466,6 @@ Analiza si el oficio releva el secreto tributario basándote en las siguientes f
   "que diga explicitamente que 'releva el secreto tributario a favor de un menor'",
   "que diga explicitamente que 'releva el secreto tributario a favor de un incapaz'",
   "que releva el secreto tributario, por parte del representante de una empresa, apareciendo el numero de empresa en el oficio",
-  "se dispone el levantamiento del secreto tributario",
-  "autoriza expresamente la relevación del secreto tributario",
-  "en el marco de un proceso de alimentos y existiendo menores involucrados, se solicita información de ingresos",
-  "para determinar la pensión alimenticia de NNA (Niño, Niña o Adolescente), se requiere conocer los ingresos",
-  "solicitud de información amparada en el artículo X de la ley Y que permite el acceso a datos protegidos por secreto tributario"
 ]
 ```
 

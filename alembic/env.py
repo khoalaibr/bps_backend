@@ -26,6 +26,7 @@ if config.config_file_name is not None:
 # --- Configuración del Target Metadata ---
 from app.db.base_class import Base
 from app.models.expediente import Expediente
+from app.models.access_log import AccessLog 
 # from app.models.user import User # Importar otros modelos si existen
 
 target_metadata = Base.metadata

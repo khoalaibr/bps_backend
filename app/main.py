@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 # Importa los routers
-from app.routers import analysis, expedientes # Añade el nuevo router de expedientes
+from app.routers import analysis, expedientes, logs # Añade el nuevo router de expedientes
 from app.core.config import settings
 
 # Crea la instancia principal de la aplicación FastAPI
@@ -27,10 +27,9 @@ app.add_middleware(
 
 
 # --- Incluir Routers ---
-# Incluye el router de análisis (existente)
 app.include_router(analysis.router, prefix="/api/v1")
-# Incluye el nuevo router de expedientes
-app.include_router(expedientes.router, prefix="/api/v1") # Usamos el mismo prefijo base
+app.include_router(expedientes.router, prefix="/api/v1") 
+app.include_router(logs.router, prefix="/api/v1")
 
 # --- Endpoint Raíz ---
 @app.get("/", tags=["Root"], summary="Verifica si la API está activa")
